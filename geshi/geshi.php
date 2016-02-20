@@ -443,9 +443,10 @@ class GeSHi {
 
     /**
      * The overall style for this code block
+     * Default is "font-family:monospace;"
      * @var string
      */
-    var $overall_style = 'font-family:monospace;';
+    var $overall_style = '';
 
     /**
      *  The style for the actual code

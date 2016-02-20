@@ -303,21 +303,7 @@ if ( ! class_exists( 'WP_Syntax' ) ) {
 			}
 
 			$output = "\n" . '<div class="wp_syntax">';
-			$output .= '<table>';
-
-			if ( ! empty( $caption ) ) {
-				$output .= '<caption>' . $caption . '</caption>';
-			}
-
-			$output .= '<tr>';
-
-			if ( $line ) {
-				$output .='<td class="line_numbers">' . self::lineNumbers( $code, $line ) . '</td>';
-			}
-
-			$output .= '<td class="code">';
 			$output .= $geshi->parse_code();
-			$output .= '</td></tr></table>';
 			$output .= '</div>' . "\n";
 
 			return $output;

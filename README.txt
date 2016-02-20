@@ -1,3 +1,8 @@
+=== Modified WP-Syntax ===
+
+The orignal work has been done by Steven A. Zahm. Its description is copied and can be found in section **WP-Syntax** below.
+This modified version is to make it suitable for my own use, and [Lessr](https://github.com/haxpor/Lessr) wordpress theme.
+
 === WP-Syntax ===
 Contributors: shazahm1@hotmail.com
 Donate link: http://wp-syntax.com/send-donation/
